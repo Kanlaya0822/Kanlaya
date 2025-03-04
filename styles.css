@@ -1,0 +1,189 @@
+*{
+    /* การกำหนด font */
+   font-family:  Arial, Helvetica,  sans-serif;
+
+    /* กำหนด link style */
+   text-decoration: none;
+
+   margin: 0;
+   padding: 0;
+   box-sizing: 0;
+   
+}
+/* menu */
+
+.container{
+   max-width: 1140px;
+   margin : 0 auto;
+   transform: scale(1.1);
+}
+
+.container-item:hover{
+   transform: scale(1.1);
+}
+
+
+nav{
+background-color: rgb(32, 59, 122);
+overflow: hidden;
+}
+
+.nav-con{
+   display: flex;
+   justify-content: space-between;
+   list-style:none ;
+   margin-left: 10px;
+   padding: 14px 16px;
+}
+
+.menu{
+   display: flex;
+   overflow: hidden;   
+}
+
+.menu li{
+   float: left;
+   color: rgb(135, 118, 211);
+   list-style: none;
+   margin-left: 10px;
+   padding: 14px 16px;
+}
+
+.menu a:hover{
+   background-color: rgb(62, 109, 211); 
+
+
+}
+
+
+.menu a:active{
+   background-color: rgb(148, 143, 223);
+   text-decoration: none;
+}
+
+a{
+color: rgb(90, 89, 170);  
+}
+
+.logo{
+   font-size: 30px; 
+}
+
+
+
+
+
+
+/* table style */
+.styled-table{
+   width:100%;
+    border-collapse:collapse;/* ทำให้เส้นขอบของเซลล์เชื่ิอมต่อกัน */
+   margin: 25px 0;
+
+}
+
+    /* การตกแต่งหัวข้อตาราง */
+   .styled-table th{
+    background-color: rgb(155, 130, 214);/* สีพื้นหลังของหัวข้อ */
+    color: rgb(150, 128, 211);/* สีของตัวอักษรในหัวข้อ */
+    text-align: left;/* จัดตำแหน่งตัวอักษณให้ชิดซ้าย */
+    padding: 12px;/*  เพิ่ม padding ด้านในของหัวข้อ */
+    font-size: 16px;/* ขนาดตัวอักษร */
+
+   }
+
+    /* ตกแต่งแถวของตาราง */
+   .styled-table td{
+   text-align: left;
+   padding: 12px 18px;
+   border-collapse: collapse;
+   border-bottom: 1px solid color rgb(160, 91, 218);
+   font-size: 16px;
+   }
+
+    /* เปลี่ยนสีเมื่อวางเมาส์ */
+   .styled-table tr :hover{
+   background-color: rgb(160, 126, 199);
+   }
+
+    /* เพิ่มขอบรอบตาราง */
+   .styled-table ,.styled-table th,.styled-table td{
+   border: 1px solid rgb(83, 68, 165);
+
+   }
+
+
+
+
+
+
+
+
+   /* profile */
+.tittle {
+   justify-content: center;
+   padding: 12px;
+   text-align: center;
+
+}
+
+.pic {
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+}
+
+.pich-item {
+   max-width: 1140px;
+   justify-content: center;
+   text-align: center;
+   
+} 
+
+.pich-item img {
+   width: 300px;
+   border-radius: 100%;
+   box-shadow:0 0 10px;
+   align-items: center;
+
+} 
+
+.pich-item img:hover{
+   transform: scale(1.1);
+}
+
+   .pich-item p {
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 16px;
+   color: rgb(39, 36, 36);
+   }
+
+.conten {
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   border:1px   rgb(231, 231, 231) solid;
+   max-width: 1140px;
+   margin:0 auto;
+   border-collapse: collapse;
+   column-gap: 14px;
+   }
+
+   .conten-item {
+      
+      padding: 12px;
+      background-color: rgb(69, 126, 211);
+      color: rgb(16, 57, 94);
+      box-shadow: 0 0 10px;
+      border-radius: 25px;
+      box-shadow: 0 4px 8px 0 rgb(141, 184, 241),rgb(153, 183, 248);
+   }
+
+   .conten-item:hover{
+      transform: scale(1.1);
+   }
+
+   .container-item:hover{
+      transform: scale(1.1);
+   }
+
+
